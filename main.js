@@ -1,8 +1,6 @@
-var line = 3;
 Paint(3);
 function Paint(n) {
-    var i = 0;
-    for (i = 0; i < n; i++) {
+    for (var i = 0; i < n; i++) {
         var front = "";
         var kong = " ";
         for (var j = 0; j < n - 1 - i; j++) {
